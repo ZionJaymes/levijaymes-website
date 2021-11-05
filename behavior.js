@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://levijaymes.co/collage", true);
+xhr.open("GET", "/collage", true);
 xhr.responseType = 'document';
 xhr.onload = () => {
     const collage = document.getElementById('collage')
