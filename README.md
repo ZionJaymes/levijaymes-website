@@ -1,4 +1,4 @@
 # levijaymes-website
 
 levijaymes.co
-levijyames.com
+levijaymes.com
