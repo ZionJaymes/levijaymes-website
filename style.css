@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #777;
+}
+
+header {
+    margin: 0;
+    padding: 2em;
+    width: auto;
+    height: 8em;
+    position: sticky;
+    top: 0;
+}
+
+#header-logo {
+    height: 100%;
+}
+
+#collage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    #collage img {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    #collage img {
+        width: 50%;
+        height: fit-content;
+    }
+}
