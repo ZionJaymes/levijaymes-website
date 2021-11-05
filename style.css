@@ -35,6 +35,7 @@ header {
         height: 100vw;
         display: block;
         background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
@@ -44,5 +45,6 @@ header {
         height: 50vw;
         display: block;
         background-size: contain;
+        background-repeat: no-repeat;
     }
 }
