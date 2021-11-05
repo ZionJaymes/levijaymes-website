@@ -2,7 +2,7 @@ var xhr = new XMLHttpRequest();
 xhr.open("GET", "/collage", true);
 xhr.responseType = 'document';
 xhr.onload = () => {
-    const collage = document.getElementById('collage')
+    var collage = document.getElementById('collage')
   if (xhr.status === 200) {
     var elements = xhr.response.getElementsByTagName("a");
     for (x of elements) {
