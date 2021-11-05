@@ -32,13 +32,13 @@ header {
 @media screen and (max-width: 800px) {
     #collage img {
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
 }
 
 @media screen and (min-width: 801px) {
     #collage img {
         width: 50%;
-        height: fit-content;
+        height: auto;
     }
 }
