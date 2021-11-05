@@ -30,17 +30,19 @@ header {
 }
 
 @media screen and (max-width: 800px) {
-    #collage img {
+    #collage div {
         width: 100%;
         height: auto;
         display: block;
+        background-size: contain;
     }
 }
 
 @media screen and (min-width: 801px) {
-    #collage img {
+    #collage div {
         width: 50%;
         height: auto;
         display: block;
+        background-size: contain;
     }
 }
